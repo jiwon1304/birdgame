@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                // "${workspaceFolder}/**",
+                "${vcpkgRoot}/arm64-osx/include",
+                "${vcpkgRoot}/arm64-osx-dynamic/include",
+                "${workspaceFolder}/utils/include",
+                "/opt/homebrew/Cellar/glm/1.0.1/include",
+                "/opt/homebrew/Cellar/glfw/3.4/include",
+
+                "${workspaceFolder}/utils/imgui",
+				"${workspaceFolder}/utils/imgui/backends",
+				"${workspaceFolder}/utils/include",
+				"${workspaceFolder}",
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "intelliSenseMode": "macos-clang-arm64",
+            "cStandard": "c23",
+            "cppStandard": "c++23"
+        }
+    ],
+    "version": 4
+}
